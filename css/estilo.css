@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.fundo {
+    background-image: url('../imagens/fundo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
