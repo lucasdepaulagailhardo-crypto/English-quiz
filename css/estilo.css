@@ -5,10 +5,12 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
+    display: flex;
+    justify-content: center;
 }
 
 .div-centrelized{
-    background-color: white;
+    background-color: rgb(153, 0, 255);
     width: 50%;
     height: 100%;
     margin: 0 auto;
@@ -21,24 +23,19 @@
       border-radius: 15px;
 }
 
-.text{
-    text-align: justify;
-    padding: 2%;
-    width: 120px; /* Define uma largura máxima */
-    height: 100px;
-      transform: translate(60%, -5%); /* Desloca para centralizar o elemento */
-       overflow: hidden; /* Esconde o conteúdo que transborda */
-}
 
 .quiz-button {
   padding: 12px 25px; /* Espaçamento interno */
   border: none; /* Remove a borda padrão */
   border-radius: 8px; /* Cantos arredondados */
-  font-size: 1em; /* Tamanho da fonte */
-  font-weight: bold;
+  font-size: 25px; /* Tamanho da fonte */
   cursor: pointer; /* Muda o cursor para mãozinha ao passar por cima */
   transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+  margin-left: 10%;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: justify;
 }
 
 .caixa-selecao-alternativa-quadrado{
@@ -50,6 +47,10 @@
     left: 8%;
   transform: translate(-50%, -50%); /* Desloca para centralizar o elemento */
   cursor: pointer;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .img-format{
@@ -70,4 +71,43 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+.areaGeral{
+	width: 550px;
+	height: 100%;
+	background-color: rgb(153, 0, 255);
+	padding:10px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(../fontes/Nexa-Heavy.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+.titulos{
+    font-family: 'Nexa', sans-serif;
+    font-size: 44px;
+    color: #fff;
+}
+
+img {
+    margin: 50px;
+}
+
+.btnNormal {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+    font-family: 'Nexa', sans-serif;
+    font-size: 30px;
+    color: rgb(153, 0, 255);
+    margin: 20px;
 }
