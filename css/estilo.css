@@ -7,6 +7,65 @@
     background-position: center;
 }
 
+.div-centrelized{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.alternativa-quesao-retangulo{
+    width: 200px;  /* Define a largura do retângulo */
+      height: 100px; /* Define a altura do retângulo */
+      border: 3px solid blue; /* Define uma borda azul de 3px de espessura */
+      border-radius: 15px;
+}
+
+.text{
+    text-align: justify;
+    padding: 2%;
+    width: 120px; /* Define uma largura máxima */
+    height: 100px;
+      transform: translate(60%, -5%); /* Desloca para centralizar o elemento */
+       overflow: hidden; /* Esconde o conteúdo que transborda */
+}
+
+.quiz-button {
+  padding: 12px 25px; /* Espaçamento interno */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Cantos arredondados */
+  font-size: 1em; /* Tamanho da fonte */
+  font-weight: bold;
+  cursor: pointer; /* Muda o cursor para mãozinha ao passar por cima */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+}
+
+.caixa-selecao-alternativa-quadrado{
+    width: 50px;
+    height: 50px;
+    border: 3px solid blue;
+      position: absolute;
+    top: 50%;
+    left: 8%;
+  transform: translate(-50%, -50%); /* Desloca para centralizar o elemento */
+  cursor: pointer;
+}
+
+.img-format{
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.format-text-h1{
+    text-align: center;
+    font-weight: bold;
+}
+.format-text-h2{
+    text-align: center;
+    font-size: 20px;
+}
+
 html, body {
     height: 100%;
     margin: 0;
