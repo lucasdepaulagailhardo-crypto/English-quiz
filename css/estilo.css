@@ -5,10 +5,51 @@
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
+    display: flex;
+    justify-content: center;
 }
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+.areaGeral{
+	width: 550px;
+	height: 100%;
+	background-color: rgb(153, 0, 255);
+	padding:10px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(../fontes/Nexa-Heavy.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+.titulos{
+    font-family: 'Nexa', sans-serif;
+    font-size: 44px;
+    color: #fff;
+}
+
+img {
+    margin: 50px;
+}
+
+.btnNormal {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+    font-family: 'Nexa', sans-serif;
+    font-size: 30px;
+    color: rgb(153, 0, 255);
+    margin: 20px;
 }
