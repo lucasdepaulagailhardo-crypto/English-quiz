@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     
-    <title>English Quiz - Science Space</title>
+    <title>Question 4</title>
 
     <script>
       function validaResposta(){
@@ -34,41 +34,41 @@
         <div class="row justify-content-md-center">
           <h1 class="titulos" style="font-size: 50px;">Question 4</h1>
         </div>
-          <div class="row justify-content-md-center">
+          <div class="row justify-content-md-center" style="margin: 1px">
           <h4 class="format-text-h1">Small space objects that orbit the Sun and are made of ice and dust are called:</h4>
         </div>
         <div class="row justify-content-md-center">
-            <img src="imagens/image_preview.jpg" alt="Imagem-teste" class="img-format">
+            <img src="imagens/small_object_on_the_space.jpg" alt="Imagem-teste" class="img-format">
         </div>
         <form action="questao5.php" method="post" id="questao4">
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao4" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">A)</span><span>Asteroids</span></div>
+              <div class="text-alternativas"><span class="bold">A)</span><span> Asteroids</span></div>
             </label>
         </div>
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao4" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">B)</span><span>Planets</span></div>
+              <div class="text-alternativas"><span class="bold">B)</span><span> Planets</span></div>
             </label>
         </div>
         <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao4" value="1" style="display:none;">
-          <div class="text-alternativas"><span class="bold">C)</span><span>Comets</span></div>
+          <div class="text-alternativas"><span class="bold">C)</span><span> Comets</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao4" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">D)</span><span>Satellites</span></div>
+          <div class="text-alternativas"><span class="bold">D)</span><span> Satellites</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao4" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">E)</span><span>Stars</span></div>
+          <div class="text-alternativas"><span class="bold">E)</span><span> Stars</span></div>
         </label>
       </div>
     <div class="row justify-content-md-center">

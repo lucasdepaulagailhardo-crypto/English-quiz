@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     
-    <title>English Quiz - Science Space</title>
+    <title>Question 8</title>
 
     <script>
       function validaResposta(){
@@ -38,37 +38,37 @@
           <h4 class="format-text-h1"> Which countries competed in the Space Race?</h4>
         </div>
         <div class="row justify-content-md-center">
-            <img src="imagens/image_preview.jpg" alt="Imagem-teste" class="img-format">
+            <img src="imagens/space_race.jpg" alt="Imagem-teste" class="img-format">
         </div>
         <form action="fim.php" method="post" id="questao8">
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao8" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">A)</span><span>Egypt and India</span></div>
+              <div class="text-alternativas"><span class="bold">A)</span><span> Egypt and India</span></div>
             </label>
         </div>
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao8" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">B)</span><span>Germany and France</span></div>
+              <div class="text-alternativas"><span class="bold">B)</span><span> Germany and France</span></div>
             </label>
         </div>
         <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao8" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">C)</span><span>Brazil and China</span></div>
+          <div class="text-alternativas"><span class="bold">C)</span><span> Brazil and China</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao8" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">D)</span><span>England and USA</span></div>
+          <div class="text-alternativas"><span class="bold">D)</span><span> England and USA</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao8" value="1" style="display:none;">
-          <div class="text-alternativas"><span class="bold">E)</span><span>USA and USSR</span></div>
+          <div class="text-alternativas"><span class="bold">E)</span><span> USA and USSR</span></div>
         </label>
       </div>
     <div class="row justify-content-md-center">

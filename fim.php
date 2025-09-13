@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     
-    <title>English Quiz - Science Space</title>
+    <title>Result</title>
   </head>
   <body class="fundo">
     <?php
@@ -56,12 +56,12 @@
   else
      $texto="You're a real astronaut! (and fluent too!).";
 
-    echo "<div class='areaGeral'>
+    echo "<div class='container areaGeral'>
       <h1 class='titulos'>Você chegou ao Fim!</h1><br>
       <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br> <!--X é a quantidade de acertos-->
       <p>".$texto."</p><!--O texto será definido com base no N de acertos, com php-->
       <a href='index.html'>
-        <button type='button' class='btnNormal'>Recomeçar</button>
+        <button type='button' class='btnNormal'>Restart</button>
       </a>
 
     </div>"

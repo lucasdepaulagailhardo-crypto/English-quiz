@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     
-    <title>English Quiz - Science Space</title>
+    <title>Question 2</title>
 
     <script>
       function validaResposta(){
@@ -40,37 +40,37 @@
           <h4 class="format-text-h1">How does an eclipse happen?</h4>
         </div>
         <div class="row justify-content-md-center">
-            <img src="imagens/image_preview.jpg" alt="Imagem-teste" class="img-format">
+            <img src="imagens/eclipse.jpg" alt="Imagem-teste" class="img-format">
         </div>
         <form action="questao3.php" method="post" id="questao2">
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao2" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">A)</span><span>When the Earth spins around itself</span></div>
+              <div class="text-alternativas"><span class="bold">A)</span><span> When the Earth spins around itself</span></div>
             </label>
         </div>
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao2" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">B)</span><span>When the Sun moves away from the Earth</span></div>
+              <div class="text-alternativas"><span class="bold">B)</span><span> When the Sun moves away from the Earth</span></div>
             </label>
         </div>
         <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao2" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">C)</span><span>When the Moon breaks into pieces</span></div>
+          <div class="text-alternativas"><span class="bold">C)</span><span> When the Moon breaks into pieces</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao2" value="1" style="display:none;">
-          <div class="text-alternativas"><span class="bold">D)</span><span>When one object blocks the light of another</span></div>
+          <div class="text-alternativas"><span class="bold">D)</span><span> When one object blocks the light of another</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao2" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">E)</span><span>When the stars disappear from the sky</span></div>
+          <div class="text-alternativas"><span class="bold">E)</span><span> When the stars disappear from the sky</span></div>
         </label>
       </div>
     <div class="row justify-content-md-center">

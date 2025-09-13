@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     
-    <title>English Quiz - Science Space</title>
+    <title>Question 6</title>
 
     <script>
       function validaResposta(){
@@ -38,37 +38,37 @@
           <h4 class="format-text-h1"> Which of the following is NOT a planet?</h4>
         </div>
         <div class="row justify-content-md-center">
-            <img src="imagens/image_preview.jpg" alt="Imagem-teste" class="img-format">
+            <img src="imagens/solar_system.jpg" alt="Imagem-teste" class="img-format">
         </div>
         <form action="questao7.php" method="post" id="questao6">
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao6" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">A)</span><span>Earth</span></div>
+              <div class="text-alternativas"><span class="bold">A)</span><span> Earth</span></div>
             </label>
         </div>
         <div class="row">
             <label class="quiz-button">
               <input type="radio" name="questao6" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">B)</span><span>Saturn</span></div>
+              <div class="text-alternativas"><span class="bold">B)</span><span> Saturn</span></div>
             </label>
         </div>
         <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao6" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">C)</span><span>Uranus</span></div>
+          <div class="text-alternativas"><span class="bold">C)</span><span> Uranus</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao6" value="1" style="display:none;">
-          <div class="text-alternativas"><span class="bold">D)</span><span>Pluto</span></div>
+          <div class="text-alternativas"><span class="bold">D)</span><span> Pluto</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
         <input type="radio" name="questao6" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">E)</span><span>Mercury</span></div>
+          <div class="text-alternativas"><span class="bold">E)</span><span> Mercury</span></div>
         </label>
       </div>
     <div class="row justify-content-md-center">
