@@ -74,9 +74,7 @@
         </label>
       </div>
     <div class="row justify-content-md-center">
-      <a href="questao3.php">
     <button type="button" class="btnNormal" onclick="validaResposta()">Next</button>
-      </a>
     </div>
     </form>
     </div>

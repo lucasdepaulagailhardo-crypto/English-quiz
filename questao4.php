@@ -11,73 +11,69 @@
     
     <title>English Quiz - Science Space</title>
 
-    <script>/*Função para validar a resposta*/
+    <script>
       function validaResposta(){
         
-        let resposta = document.querySelector('input[name="questao1"]:checked');
+        let resposta = document.querySelector('input[name="questao4"]:checked');
               
               if (!resposta) 
                   alert("Selecione uma resposta");
                else 
-                  document.getElementById("questao1").submit();
+                  document.getElementById("questao4").submit();
               
       }
         
     </script>
   </head>
   <body class="fundo">
+    <?php
+       session_start();
+       $_SESSION["q3"]=$_POST["questao3"];
+    ?>
     <div class="container areaGeral">
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 1</h1>
+          <h1 class="titulos" style="font-size: 50px;">Question 4</h1>
         </div>
           <div class="row justify-content-md-center">
-          <h4 class="format-text-h1">Who was the first man to walk on the Moon?</h4>
+          <h4 class="format-text-h1">Small space objects that orbit the Sun and are made of ice and dust are called:</h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/image_preview.jpg" alt="Imagem-teste" class="img-format">
         </div>
-        <!--Adição de <form>-->
-        <!--"action ="define para onde os dados serão enviados, e redireciona o user (eu acho)
-        "method =" define como os dados serão enviados
-        "id =" é o id... n tem muito oq falar-->
-        <form action="questao2.php" method="post" id="questao1">
+        <form action="questao5.php" method="post" id="questao4">
         <div class="row">
-          <!--Buttons foram alterados para Inputs, e os labels 
-          foram para as formatações funcionarem-->
             <label class="quiz-button">
-              <input type="radio" name="questao1" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">A)</span><span>Buzz Aldrin</span></div>
+              <input type="radio" name="questao4" value="0" style="display:none;">
+              <div class="text-alternativas"><span class="bold">A)</span><span>Asteroids</span></div>
             </label>
         </div>
         <div class="row">
             <label class="quiz-button">
-              <input type="radio" name="questao1" value="0" style="display:none;">
-              <div class="text-alternativas"><span class="bold">B)</span><span>Yuri Gagarin</span></div>
+              <input type="radio" name="questao4" value="0" style="display:none;">
+              <div class="text-alternativas"><span class="bold">B)</span><span>Planets</span></div>
             </label>
         </div>
         <div class="row">
         <label class="quiz-button">
-        <input type="radio" name="questao1" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">C)</span><span>James Irwin</span></div>
+        <input type="radio" name="questao4" value="1" style="display:none;">
+          <div class="text-alternativas"><span class="bold">C)</span><span>Comets</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
-          <!--Deixei os values dos corretos em 1, para facilitar
-          no php lá no final-->
-        <input type="radio" name="questao1" value="1" style="display:none;">
-          <div class="text-alternativas"><span class="bold">D)</span><span>Neil Armstrong</span></div>
+        <input type="radio" name="questao4" value="0" style="display:none;">
+          <div class="text-alternativas"><span class="bold">D)</span><span>Satellites</span></div>
         </label>
       </div>
       <div class="row">
         <label class="quiz-button">
-        <input type="radio" name="questao1" value="0" style="display:none;">
-          <div class="text-alternativas"><span class="bold">E)</span><span>Carl Sagan</span></div>
+        <input type="radio" name="questao4" value="0" style="display:none;">
+          <div class="text-alternativas"><span class="bold">E)</span><span>Stars</span></div>
         </label>
       </div>
     <div class="row justify-content-md-center">
-    <button type="button" class="btnNormal" onclick="validaResposta()">Next</button> 
-     </div>
+    <button type="button" class="btnNormal" onclick="validaResposta()">Next</button>
+    </div>
     </form>
     </div>
     
