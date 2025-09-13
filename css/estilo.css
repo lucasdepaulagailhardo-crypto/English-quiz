@@ -11,6 +11,7 @@
 
 .quiz-button {
   padding: 2px; /* Espaçamento interno */
+  background-color: #fff;
   border: none; /* Remove a borda padrão */
   border-radius: 8px; /* Cantos arredondados */
   font-size: 25px; /* Tamanho da fonte */
@@ -102,4 +103,14 @@ img {
 p {
     color: #fff;
     font-size: 20px;
+}
+
+/*".quiz-button" seleciona os elementos dessa classe/
+ "input[type="radio"]:checked" aplica apenas aos selecionados
+ "+" faz com que as formatações se apliquem a outro elemento, se tiverem o mesmo nivel hierarquico
+ "text-alternativas" serve como "alvo", para saber onde aplicar a alteração*/
+.quiz-button input[type="radio"]:checked + .text-alternativas {
+  background-color: #d1e7fd;
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px #007bff;
 }
