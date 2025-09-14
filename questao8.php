@@ -31,6 +31,9 @@
        $_SESSION["q7"]=$_POST["questao7"];
     ?>
     <div class="container areaGeral">
+      <div class="areaBarraProgresso">
+        <progress class="barraProgresso" value="100" max="100"></progress>
+      </div>
         <div class="row justify-content-md-center">
           <h1 class="titulos" style="font-size: 50px;">Question 8</h1>
         </div>

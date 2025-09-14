@@ -112,9 +112,68 @@ p {
  "input[type="radio"]:checked" aplica apenas aos selecionados
  "+" faz com que as formatações se apliquem a outro elemento, se tiverem o mesmo nivel hierarquico
  "text-alternativas" serve como "alvo", para saber onde aplicar a alteração*/
+
+ /*Vou tentar explicar oq tá acontecendo aqui e por que o + é necessário. basicamente, é pq o input tem display:none
+ no style, então era pra ele não aparecer na tela, e de fato ele não aparece, o user está interagindo com a 
+  div, com a classe .text-alternativas, então é necessário estilizar a área onde está o texto, então usar 
+ .quiz-button input[type="radio"]:checked + .text-alternativas é como dizer "“Quando esse input estiver marcado, 
+ estilize o div.text-alternativas que está logo depois dele.”. "Mas text-alternativas não é só um texto?", não, pois 
+ ele está sendo usado como uma classe de uma div, então não estamos estilizando só texto em si, mas a div que tem essa 
+ classe! (solto o microfone de um jeito foda (+99999 aura))*/
 .quiz-button input[type="radio"]:checked + .text-alternativas {
   background-color: #d1e7fd;
   border-radius: 5px;
   box-shadow: 0 0 0 2px #007bff;
 }
 
+.areaBarraProgresso{
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 24px;
+    width: 90%;
+    background-color: white;
+    /* centraliza a barra de progresso */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*No trecho abaixo é inteiro para formatação da progress bar, é complicado
+fazer essas formatações porque, como podemos estar tratando de diferentes navegadores
+é necessário zerar as formatações bases (com appearance: none;) e fazer as formatações
+para os pseudo-elementos para cada navegador diferente, os comentários abaixo vão 
+explicar cada trecho melhor*/
+
+/*essa é a base das alterações da progress bar*/
+.barraProgresso {
+    margin: 0 auto;
+    appearance: none;
+    width: 98%;
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: black; /*usado no firefox para fazer o fundo*/
+}
+
+/*webkit faz as alterações no Chrome/safari, e moz faz no Firefox*/
+/*progress-bar refere-se ao fundo, já progress-value refere-se à parte preenchida*/
+/* Parte não preenchida no Chrome/Safari */
+.barraProgresso::-webkit-progress-bar {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Parte preenchida no Chrome/Safari */
+.barraProgresso::-webkit-progress-value {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+/*não é nessesário o progress-value no moz por que essa 
+alterção já é feita no .barraProgresso original*/
+/* Parte preenchida no Firefox */
+.barraProgresso::-moz-progress-bar {
+  background-color: purple;
+  border-radius: 10px;
+} 
+/*o tonto aqui achava que era só colocar um <progress> e cabô akakkakakaka*/
