@@ -57,9 +57,9 @@
      $texto="You're a real astronaut! (and fluent too!).";
 
     echo "<div class='container areaGeral'>
-      <h1 class='titulos'>Você chegou ao Fim!</h1><br>
-      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br> <!--X é a quantidade de acertos-->
-      <p>".$texto."</p><!--O texto será definido com base no N de acertos, com php-->
+      <h1 class='titulos'>You've reached the end!</h1><br>
+      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br> 
+      <p>".$texto."</p>
       <a href='index.html'>
         <button type='button' class='btnNormal'>Restart</button>
       </a>
