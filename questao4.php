@@ -35,10 +35,10 @@
         <progress class="barraProgresso" value="50" max="100"></progress>
       </div>
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 4</h1>
+          <h1 class="titulos">Question 4</h1>
         </div>
           <div class="row justify-content-md-center" style="margin: 1px">
-          <h4 class="format-text-h1">Small space objects that orbit the Sun and are made of ice and dust are called:</h4>
+          <h4 class="format-text-h1" style="font-size: 40px">Small space objects that orbit the Sun and are made of ice and dust are called:</h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/small_object_on_the_space.jpg" alt="Imagem-teste" class="img-format">

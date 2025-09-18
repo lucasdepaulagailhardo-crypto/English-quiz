@@ -35,10 +35,10 @@
         <progress class="barraProgresso" value="75" max="100"></progress>
       </div>
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 6</h1>
+          <h1 class="titulos">Question 6</h1>
         </div>
           <div class="row justify-content-md-center">
-          <h4 class="format-text-h1"> Which of the following is NOT a planet?</h4>
+          <h4 class="format-text-h1" style="font-size: 40px"> Which of the following is NOT a planet?</h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/solar_system.jpg" alt="Imagem-teste" class="img-format">

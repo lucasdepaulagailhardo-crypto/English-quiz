@@ -35,10 +35,10 @@
         <progress class="barraProgresso" value="62.5" max="100"></progress>
       </div>
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 5</h1>
+          <h1 class="titulos">Question 5</h1>
         </div>
           <div class="row justify-content-md-center">
-          <h4 class="format-text-h1"> What is the most abundant element in the Sun?</h4>
+          <h4 class="format-text-h1" style="font-size: 40px"> What is the most abundant element in the Sun?</h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/sun.jpg" alt="Imagem-teste" class="img-format">

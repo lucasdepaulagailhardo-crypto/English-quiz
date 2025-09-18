@@ -36,10 +36,10 @@
         <progress class="barraProgresso" value="87.5" max="100"></progress>
       </div>
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 7</h1>
+          <h1 class="titulos">Question 7</h1>
         </div>
           <div class="row justify-content-md-center">
-          <h4 class="format-text-h1"> What was the first living being to go into space? </h4>
+          <h4 class="format-text-h1" style="font-size: 40px"> What was the first living being to go into space? </h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/animals_astronomers.jpg" alt="Imagem-teste" class="img-format">

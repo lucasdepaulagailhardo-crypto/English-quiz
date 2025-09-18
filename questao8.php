@@ -35,10 +35,10 @@
         <progress class="barraProgresso" value="100" max="100"></progress>
       </div>
         <div class="row justify-content-md-center">
-          <h1 class="titulos" style="font-size: 50px;">Question 8</h1>
+          <h1 class="titulos">Question 8</h1>
         </div>
           <div class="row justify-content-md-center">
-          <h4 class="format-text-h1"> Which countries competed in the Space Race?</h4>
+          <h4 class="format-text-h1" style="font-size: 40px"> Which countries competed in the Space Race?</h4>
         </div>
         <div class="row justify-content-md-center">
             <img src="imagens/space_race.jpg" alt="Imagem-teste" class="img-format">
