@@ -1,3 +1,15 @@
+<?php
+  
+   $fileName = "classificacao.txt";
+   if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $id++;
+   $name = strip_tags($_POST['name']);
+   file_put_contents($fileName, $id."|".$name."|", FILE_APPEND);
+   header('Location: questao1.html');
+  exit;
+   }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -10,24 +22,20 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="script" href="javascript/script.js">
     
-    <title>English Quiz - Science Space</title>
+    <title>Cadastro do nome</title>
     
   </head>
   <body class="fundo">
-    <div class="conatainer areaGeral">
-       <h1 class="titulos">Science Space Quiz</h1><br>
-       <img src="imagens/logo_escola.jpg" style="margin: 0px;"><br>
-       <a href="cadastro.php">
-      <div>
-        <button type="button" class="btnNormal">Start</button>
-        </a>
-      </div><br>
-      <div>
-       <a href="creditos.html">
-       <button type="button" class="btnNormal">Credits</button>
-       </a>
-      </div>
-    </div>
+    <h1>Cadastrando usuário</h1>
+    <form method="post" action="">
+        <div>
+            <input type="text" name="name" placeholder="Ex.: João Silva"/>
+            <label for="newField">name</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+    </form>
     
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
