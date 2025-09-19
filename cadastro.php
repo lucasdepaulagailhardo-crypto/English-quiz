@@ -1,15 +1,24 @@
 <?php
-  
-   $fileName = "classificacao.txt";
-   if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $id++;
-   $name = strip_tags($_POST['name']);
-   file_put_contents($fileName, $id."|".$name."|", FILE_APPEND);
-   header('Location: questao1.html');
-  exit;
-   }
-?>
+  session_start(); // Inicia a sessão
 
+  // Define um valor inicial para o contador se ainda não existir
+    if (!isset($_SESSION['id'])) {
+    $_SESSION['id'] = 0;
+  }
+
+function gerarNovoId() {
+    $_SESSION['id']++;
+    return $_SESSION['id'];
+}
+
+  $ID = gerarNovoId();
+  $fileName="classificacao.txt";
+  if($_SERVER["REQUEST_METHOD"] == "POST"){
+  $name = strip_tags($_POST["name"]);
+  file_put_contents($fileName, $ID."|".$name."|", FILE_APPEND);
+  header("Location: questao1.html");
+  }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -26,7 +35,7 @@
     
   </head>
   <body class="fundo">
-    <h1>Cadastrando usuário</h1>
+  <h1>Cadastrando usuário</h1>
     <form method="post" action="">
         <div>
             <input type="text" name="name" placeholder="Ex.: João Silva"/>
