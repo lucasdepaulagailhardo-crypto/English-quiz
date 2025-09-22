@@ -26,68 +26,35 @@ if ($names === false) {
     
   </head>
   <body class="fundo">
-  <style>
-.table_component {
-    overflow: auto;
-    width: 100%;
-}
-
-.table_component table {
-    border: 1px solid #dededf;
-    height: 100%;
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 1px;
-    text-align: left;
-}
-
-.table_component caption {
-    caption-side: top;
-    text-align: left;
-}
-
-.table_component th {
-    border: 1px solid #dededf;
-    background-color: #eceff1;
-    color: #000000;
-    padding: 5px;
-}
-
-.table_component td {
-    border: 1px solid #dededf;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 5px;
-}
-</style>
-<div class='table_component' role='region' tabindex='0'>
-<table>
-    <caption>Table 1</caption>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nomes</th>
-            <th>Acertos</th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php 
+    <div class="conatainer areaGeral"> 
+        <div class='table_component' role='region' tabindex='0'>
+            <table>
+                <caption>Table 1</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nomes</th>
+                        <th>Acertos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php 
             // Itera sobre o array $nomes
             foreach ($names as $index => $linha): 
                 // Divide a linha pelo separador '|'
                 $dados = explode('|', $linha);
                 // Verifica se o array tem pelo menos 3 elementos (ID, Nome, Acertos)
                 if (count($dados) == 3):
-            ?>
+                    ?>
                 <tr>
                     <td><?php echo $dados[0]; ?></td> <!-- ID -->
                     <td><?php echo htmlspecialchars($dados[1]); ?></td> <!-- Nome -->
                     <td><?php echo $dados[2]; ?></td> <!-- Acertos -->
                 </tr>
-            <?php endif; endforeach; ?>
-    </tbody>
-</table>
+                <?php endif; endforeach; ?>
+            </tbody>
+        </table>
+    </div>
 <div style='margin-top:8px'>Made with <a href='https://www.htmltables.io/' target='_blank'>HTML Tables</a></div>
 </div>
     <!-- JavaScript (Opcional) -->
