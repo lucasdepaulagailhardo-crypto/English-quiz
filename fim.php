@@ -36,7 +36,7 @@
   if($_SESSION["q8"]=="1")
      $acertos++;
 
-     $fileName = "classificacao.txt";
+     $fileName = "livro-de-visitas.txt";
      file_put_contents($fileName, $acertos."\n", FILE_APPEND);
 
   /*criando texto sobre o desempenho*/

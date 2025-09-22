@@ -32,13 +32,6 @@
     font-weight: bold;
 }
 
-.format-text-h1{
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-    font-size: 25px;
-}
-
 html, body {
     height: 100%;
     margin: 0;
@@ -195,14 +188,6 @@ alterção já é feita no .barraProgresso original*/
     text-align: left;
 }
 
-.table_component caption {
-    caption-side: top;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Nexa', sans-serif;
-    color: #fff;
-}
-
 .table_component th {
     border: 1px solid #dededf;
     background-color: #eceff1;
@@ -221,7 +206,7 @@ alterção já é feita no .barraProgresso original*/
     height: 750px; /* Altura fixa */
     overflow: auto; /* Adiciona scrollbars quando o conteúdo é maior que o tamanho da div */
     padding: 10px; /* Espaçamento interno */
-  }
+}
 
 .cadastro{
     position: relative;

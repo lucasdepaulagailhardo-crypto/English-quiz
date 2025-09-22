@@ -1,3 +1,8 @@
+<?php
+ $fileName="livro-de-visitas.txt";
+ $currentData = file_exists($fileName) ? file($fileName, FILE_IGNORE_NEW_LINES) : [];
+ $Id = count($currentData); 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -8,7 +13,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="script" href="javascript/script.js">
     
     <title>English Quiz - Science Space</title>
     
@@ -26,9 +30,12 @@
        <a href="creditos.html">
        <button type="button" class="btnNormal">Credits</button>
        </a>
-       <a href="classificacao.php">
-        <button type="button" class="btnNormal">Ranking</button>
+       <a href="livro-de-visitas.php">
+        <button type="button" class="btnNormal">Visits Book</button>
         </a>
+      </div>
+      <div>
+        <span><?php echo $Id ?></span>
       </div>
     </div>
     

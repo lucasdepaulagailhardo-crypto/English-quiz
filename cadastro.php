@@ -1,10 +1,10 @@
 <?php
-  setcookie("usuario",$_POST["name"],3600);
-
-  $fileName="classificacao.txt";
+  $fileName="livro-de-visitas.txt";
   if($_SERVER["REQUEST_METHOD"] == "POST"){
-  $name = strip_tags($_POST["name"]);
-  file_put_contents($fileName,$name."|", FILE_APPEND);
+  $name = strip_tags(trim($_POST["name"]));
+   $currentData = file_exists($fileName) ? file($fileName, FILE_IGNORE_NEW_LINES) : [];
+  $nextId = count($currentData) + 1;  // Incrementa o número do ID
+  file_put_contents($fileName, $nextId."|".$name."|", FILE_APPEND);
   header("Location: questao1.html");
   }
 ?>
@@ -18,22 +18,31 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="script" href="javascript/script.js">
     
     <title>Cadastro do nome</title>
   </head>
   <body class="fundo">
     <div class="container areaGeral">
       <h1 class="titulos">Cadastrando usuário</h1>
-      <img src="imagens/logo_escola.jpg" style="margin: 50pxpx;"><br>
+      <img src="imagens/logo_escola.jpg" style="margin: 50px;"><br>
       <form method="post" action="">
         <div>
-          <input type="text" name="name" class="cadastro" placeholder="Ex.: João Silva"/>
+          <input type="text" name="name" id="name" class="cadastro" placeholder="Ex.: João Silva"/>
         </div>
         <div>
           <button type="submit" class="btnNormal">Next</button>
         </div>
       </div>
+      <script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    var nameField = document.getElementById('name');
+    if (nameField.value.trim() === '') {
+      event.preventDefault(); // Impede o envio do formulário
+      alert('Por favor, insira um nome válido!');
+    }
+  });
+</script>
+
     </form>
     
     <!-- JavaScript (Opcional) -->

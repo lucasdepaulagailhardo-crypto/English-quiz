@@ -1,14 +1,6 @@
 <?php
-$fileName = "classificacao.txt";
+$fileName = "livro-de-visitas.txt";
 $names = file($fileName, FILE_IGNORE_NEW_LINES);
-
-if (!file_exists($fileName)) {
-    die("Erro: O arquivo 'classificacao.txt' não foi encontrado.");
-}
-  
-if ($names === false) {
-    die("Erro ao ler o arquivo.");
-}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -32,6 +24,7 @@ if ($names === false) {
             <table>
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Nomes</th>
                         <th>Acertos</th>
                     </tr>
@@ -43,11 +36,12 @@ if ($names === false) {
                 // Divide a linha pelo separador '|'
                 $dados = explode('|', $linha);
                 // Verifica se o array tem pelo menos 2 elementos (Nome, Acertos)
-                if (count($dados) == 2):
+                if (count($dados) == 3):
                     ?>
                 <tr>
-                    <td><?php echo htmlspecialchars($dados[0]); ?></td> <!-- Nome -->
-                    <td><?php echo $dados[1]; ?></td> <!-- Acertos -->
+                    <td><?php echo ($dados[0]); ?></td> <!-- Nome -->
+                    <td><?php echo htmlspecialchars($dados[1]); ?></td> <!-- Nome -->
+                    <td><?php echo $dados[2]; ?></td> <!-- Acertos -->
                 </tr>
                 <?php endif; endforeach; ?>
             </tbody>
