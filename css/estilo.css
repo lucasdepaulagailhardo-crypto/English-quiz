@@ -196,7 +196,10 @@ alterção já é feita no .barraProgresso original*/
 
 .table_component caption {
     caption-side: top;
-    text-align: left;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nexa', sans-serif;
+    color: #fff;
 }
 
 .table_component th {
@@ -212,3 +215,9 @@ alterção já é feita no .barraProgresso original*/
     color: #000000;
     padding: 5px;
 }
+.div-rolavel {
+    width: 100%; /* Largura fixa */
+    height: 700px; /* Altura fixa */
+    overflow: auto; /* Adiciona scrollbars quando o conteúdo é maior que o tamanho da div */
+    padding: 10px; /* Espaçamento interno */
+  }

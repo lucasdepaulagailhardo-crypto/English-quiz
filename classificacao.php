@@ -26,10 +26,10 @@ if ($names === false) {
     
   </head>
   <body class="fundo">
-    <div class="conatainer areaGeral"> 
-        <div class='table_component' role='region' tabindex='0'>
+      <div class="conatainer areaGeral"> 
+          <h1 class="titulos">Visits Book</h1>
+          <div class='table_component div-rolavel' role='region' tabindex='0'>
             <table>
-                <caption>Table 1</caption>
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -55,7 +55,9 @@ if ($names === false) {
             </tbody>
         </table>
     </div>
-<div style='margin-top:8px'>Made with <a href='https://www.htmltables.io/' target='_blank'>HTML Tables</a></div>
+    <a href="index.html">
+        <button type="button" class="btnNormal">Return</button>
+      </a>
 </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

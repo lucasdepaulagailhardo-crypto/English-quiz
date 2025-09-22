@@ -1,109 +1,119 @@
-2|lUCAS|2
-2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
- 2|lUCAS|2
-  2|Miguel|
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
+2|lucas|3
