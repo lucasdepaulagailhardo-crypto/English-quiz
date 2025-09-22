@@ -22,7 +22,7 @@ if ($names === false) {
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="script" href="javascript/script.js">
     
-    <title>Cadastro do nome</title>
+    <title>Visits Book</title>
     
   </head>
   <body class="fundo">
@@ -32,7 +32,6 @@ if ($names === false) {
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Nomes</th>
                         <th>Acertos</th>
                     </tr>
@@ -43,13 +42,12 @@ if ($names === false) {
             foreach ($names as $index => $linha): 
                 // Divide a linha pelo separador '|'
                 $dados = explode('|', $linha);
-                // Verifica se o array tem pelo menos 3 elementos (ID, Nome, Acertos)
-                if (count($dados) == 3):
+                // Verifica se o array tem pelo menos 2 elementos (Nome, Acertos)
+                if (count($dados) == 2):
                     ?>
                 <tr>
-                    <td><?php echo $dados[0]; ?></td> <!-- ID -->
-                    <td><?php echo htmlspecialchars($dados[1]); ?></td> <!-- Nome -->
-                    <td><?php echo $dados[2]; ?></td> <!-- Acertos -->
+                    <td><?php echo htmlspecialchars($dados[0]); ?></td> <!-- Nome -->
+                    <td><?php echo $dados[1]; ?></td> <!-- Acertos -->
                 </tr>
                 <?php endif; endforeach; ?>
             </tbody>

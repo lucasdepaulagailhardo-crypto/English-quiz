@@ -1,21 +1,10 @@
 <?php
-  session_start(); // Inicia a sessão
+  setcookie("usuario",$_POST["name"],3600);
 
-  // Define um valor inicial para o contador se ainda não existir
-    if (!isset($_SESSION['id'])) {
-    $_SESSION['id'] = 0;
-  }
-
-function gerarNovoId() {
-    $_SESSION['id']++;
-    return $_SESSION['id'];
-}
-
-  $ID = gerarNovoId();
   $fileName="classificacao.txt";
   if($_SERVER["REQUEST_METHOD"] == "POST"){
   $name = strip_tags($_POST["name"]);
-  file_put_contents($fileName, $ID."|".$name."|", FILE_APPEND);
+  file_put_contents($fileName,$name."|", FILE_APPEND);
   header("Location: questao1.html");
   }
 ?>
@@ -32,18 +21,19 @@ function gerarNovoId() {
     <link rel="script" href="javascript/script.js">
     
     <title>Cadastro do nome</title>
-    
   </head>
   <body class="fundo">
-  <h1>Cadastrando usuário</h1>
-    <form method="post" action="">
+    <div class="container areaGeral">
+      <h1 class="titulos">Cadastrando usuário</h1>
+      <img src="imagens/logo_escola.jpg" style="margin: 50pxpx;"><br>
+      <form method="post" action="">
         <div>
-            <input type="text" name="name" placeholder="Ex.: João Silva"/>
-            <label for="newField">name</label>
+          <input type="text" name="name" class="cadastro" placeholder="Ex.: João Silva"/>
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button type="submit" class="btnNormal">Next</button>
         </div>
+      </div>
     </form>
     
     <!-- JavaScript (Opcional) -->

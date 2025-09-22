@@ -55,6 +55,7 @@ html, body {
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     text-align: center;
     margin: 0 auto;
+    position: relative;
 }
 
 @font-face {
@@ -217,7 +218,18 @@ alterção já é feita no .barraProgresso original*/
 }
 .div-rolavel {
     width: 100%; /* Largura fixa */
-    height: 700px; /* Altura fixa */
+    height: 750px; /* Altura fixa */
     overflow: auto; /* Adiciona scrollbars quando o conteúdo é maior que o tamanho da div */
     padding: 10px; /* Espaçamento interno */
   }
+
+.cadastro{
+    position: relative;
+    height: 50px;
+    width: 50%;
+    justify-content: center;
+    padding: 25px;
+    font-size: 35px;
+    margin: 0 auto;
+    display: block;
+}
