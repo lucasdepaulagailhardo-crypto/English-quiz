@@ -63,6 +63,9 @@
       <a href='index.html'>
         <button type='button' class='btnNormal'>Restart</button>
       </a>
+      <a href='../menu2ab.html'>
+        <button type='button' class='btnNormal'>Menu</button>
+      </a>
 
     </div>"
     ?>

@@ -54,6 +54,7 @@ html, body {
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     text-align: center;
     margin: 0 auto;
+    animation: desvanecerParaBaixo 1s forwards;
 }
 
 @font-face {
@@ -104,7 +105,7 @@ img {
 
 p {
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 /*".quiz-button" seleciona os elementos dessa classe/
@@ -118,7 +119,7 @@ p {
  .quiz-button input[type="radio"]:checked + .text-alternativas é como dizer "“Quando esse input estiver marcado, 
  estilize o div.text-alternativas que está logo depois dele.”. "Mas text-alternativas não é só um texto?", não, pois 
  ele está sendo usado como uma classe de uma div, então não estamos estilizando só texto em si, mas a div que tem essa 
- classe! (solto o microfone de um jeito foda (+99999 aura))*/
+ classe! (solto o microfone (+99999 aura))*/
 .quiz-button input[type="radio"]:checked + .text-alternativas {
   background-color: #d1e7fd;
   border-radius: 5px;
@@ -175,4 +176,12 @@ alterção já é feita no .barraProgresso original*/
   background-color: purple;
   border-radius: 10px;
 } 
-/*o tonto aqui achava que era só colocar um <progress> e cabô akakkakakaka*/
+
+@keyframes desvanecerParaBaixo {
+    from {
+      opacity: 0; /* Opacidade total */
+    }
+    to {
+      opacity: 1; /* Completamente transparente */
+    }
+  }
