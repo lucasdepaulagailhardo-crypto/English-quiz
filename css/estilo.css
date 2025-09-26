@@ -86,14 +86,13 @@ img {
     color: rgb(153, 0, 255);
     margin: 20px;
     margin-top: 50px;
-    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
-    transition: 300ms; 
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2); 
     cursor: pointer;
 }
 
 .btnNormal:hover{
-    transform: scale(1.2);
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    animation: balangar 2s infinite ease-in-out;
 }
 
 .nomes {
@@ -176,3 +175,10 @@ alterção já é feita no .barraProgresso original*/
   border-radius: 10px;
 } 
 /*o tonto aqui achava que era só colocar um <progress> e cabô akakkakakaka*/
+
+@keyframes balangar{
+0%, 100% {transform: rotate(0deg) scale(1.2)}
+25% {transform: rotate(3deg) scale(1.2)}
+50% {transform: rotate(0deg) scale(1.2)}
+75% {transform: rotate(-3deg) scale(1.2)}
+}
