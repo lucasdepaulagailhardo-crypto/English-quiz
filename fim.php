@@ -57,16 +57,21 @@
      $texto="You're a real astronaut! (and fluent too!).";
 
     echo "<div class='container areaGeral'>
-      <h1 class='titulos'>You've reached the end!</h1><br>
-      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br> 
-      <p>".$texto."</p>
+      <h1 class='titulos'>You've reached the end!</h1><br><br>
+      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br><br>
+      <div> 
+      <p>".$texto."</p><br><br>
+      </div>
+      <div>
       <a href='index.html'>
         <button type='button' class='btnNormal'>Restart</button>
       </a>
+      </div>
+      <div>
       <a href='../menu2ab.html'>
         <button type='button' class='btnNormal'>Menu</button>
       </a>
-
+      </div>
     </div>"
     ?>
     
