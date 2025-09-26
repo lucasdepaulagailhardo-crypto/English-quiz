@@ -71,9 +71,9 @@ html, body {
 }
 
 img {
-    max-width: 500px;
-    max-height: 500px;
-    margin: 12px;
+    max-width: 450px;
+    max-height: 450px;
+    margin: 15px;
     box-shadow: 0 0 20px;
 }
 
