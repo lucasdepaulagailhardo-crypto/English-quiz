@@ -57,14 +57,15 @@
      $texto="You're a real astronaut! (and fluent too!).";
 
     echo "<div class='container areaGeral'>
-      <h1 class='titulos'>You've reached the end!</h1><br><br>
-      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1><br><br>
+      <h1 class='titulos'>You Did It!</h1>
+      <h1 class='titulos' style='font-size: 150px;'>".$acertos."/8</h1>
       <div> 
-      <p>".$texto."</p><br><br>
+      <p>".$texto."</p>
       </div>
-      <div>
+      <div>"
+      ?>
       <a href='index.html'>
-        <button type='button' class='btnNormal'>Restart</button>
+        <button type='button' class='btnNormal' style="margin-top: 30%;">Restart</button>
       </a>
       </div>
       <div>
@@ -73,7 +74,6 @@
       </a>
       </div>
     </div>"
-    ?>
     
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
